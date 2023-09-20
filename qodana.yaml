@@ -9,8 +9,10 @@ profile:
   name: qodana.recommended
 
 #Enable inspections
-#include:
-#  - name: <SomeEnabledInspectionId>
+include:
+  - name: All
+    paths:
+    - Assets
 
 #Disable inspections
 #exclude:
